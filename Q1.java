@@ -16,7 +16,7 @@ public class Q1{
 
        System.out.print("enter the elements of array:");
        for(int i=0;i<size;i++)
-        {
+        {  
           arr[i]=sc.nextInt();
            
         }

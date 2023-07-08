@@ -24,7 +24,12 @@ public static void main(String[] args){
     }
 
 System.out.print("largest no in array:"+max);
-}
 
+//sc should be close after code completion 
+
+sc.close();
+
+}
+//sc.close();
 
 }
