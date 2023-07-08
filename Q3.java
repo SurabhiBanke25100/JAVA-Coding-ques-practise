@@ -7,16 +7,16 @@ public class Q3 {
       int n,a,t;
       int rem=0;
       Scanner sc=new Scanner(System.in);
-      System.out.print("enter the no:");
+      System.out.println("enter the no=");
        n=sc.nextInt();
-
-       a=n;
+        a=n;
       
        while(a!=0)
        {
         t=a%10;
         rem=rem*10 + t;
         a=a/10;
+
      }
 
 if (n==rem){
@@ -27,5 +27,5 @@ else{
 }
 sc.close();
 }
-
+   
 }
