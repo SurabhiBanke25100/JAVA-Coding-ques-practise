@@ -31,6 +31,5 @@ public class Q8 {
 sc.close();
     
 
-    
-}
+ }
 }
