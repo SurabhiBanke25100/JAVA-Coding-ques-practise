@@ -1,14 +1,13 @@
-
-     //program to find the smallest no in an array
+//program to find the largest no in an array
 
 import java.util.Scanner;
 
-public class Q1 {
+public class Q2 {
     
     public static void main(String [] args){
     
         Scanner sc=new Scanner(System.in);
-        int n,size,min;
+        int n,size,max;
 
         System.out.print("enter size=");
         size=sc.nextInt();
@@ -21,16 +20,16 @@ public class Q1 {
 
         }
 
-min=arr[0];
+max=arr[0];
        for (int i=0;i<size;i++){
           // min=arr[0];
-           while(arr[i]<min){
+           while(arr[i]>max){
 
-               min=arr[i];
+               max=arr[i];
 
            }
        }
-        System.out.println("smallest no="+min);
+        System.out.println("largest no="+max);
         
         
 
@@ -42,5 +41,3 @@ sc.close();
 
     }
 }
-
-
