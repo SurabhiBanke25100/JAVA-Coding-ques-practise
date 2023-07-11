@@ -10,10 +10,10 @@ public class Q14 {
         Scanner sc=new Scanner(System.in);
         System.out.print("enter string=");
         str=sc.nextLine();
-        int start=0;
-        int end=str.length()-1 ;
+       // int start=0;
+       // int end=str.length()-1 ;
 
-        for(int i=end;i>=start;i--){
+        for(int i=str.length()-1;i>=0;i--){
             rev=rev+str.charAt(i);
         }
 
