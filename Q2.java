@@ -8,6 +8,7 @@ public class Q2 {
     
         Scanner sc=new Scanner(System.in);
         int n,size,max;
+        int s=Integer.MIN_VALUE;
 
         System.out.print("enter size=");
         size=sc.nextInt();
@@ -20,16 +21,27 @@ public class Q2 {
 
         }
 
-max=arr[0];
-       for (int i=0;i<size;i++){
+        max=arr[0];
+
+
+        for (int i=0;i<size;i++){
           // min=arr[0];
            while(arr[i]>max){
-
+              
                max=arr[i];
 
            }
        }
         System.out.println("largest no="+max);
+
+        for (int i=0;i<size;i++){
+          // min=arr[0];
+           while(max>s){
+              
+               max=arr[i];
+
+           }
+       }
         
         
 
