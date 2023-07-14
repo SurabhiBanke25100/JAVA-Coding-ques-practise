@@ -30,10 +30,7 @@ public static int[] input(){
             
         }
 
-      //  System.out.print("enter no to be searched out=");
-     // int n=sc.nextInt();
-
-         return arr;
+           return arr;
     
         }
 
@@ -48,6 +45,8 @@ public static int[] input(){
       int n=sc.nextInt();
       
         int c=search(arr,n);
-//System.out.println("number found");
+
+        //System.out.println("number found");
+
     }
 }
