@@ -22,7 +22,7 @@ public class Q30 {
         b=c;
 
     }
-
+sc.close();
    
     }
 }

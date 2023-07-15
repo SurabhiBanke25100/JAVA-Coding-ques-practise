@@ -8,12 +8,12 @@ public class Q27 {
    
          Scanner sc = new Scanner(System.in);
         
-        System.out.print("enter size=");
-        int dig=sc.nextInt();
+         System.out.print("enter size=");
+         int dig=sc.nextInt();
 
-        int arr[]=new int[dig];
+         int arr[]=new int[dig];
 
-        for(int i=0; i<dig; i++){
+         for(int i=0; i<dig; i++){
             
            arr[i]=sc.nextInt();
             
