@@ -2,6 +2,7 @@
 // Use this editor to write, compile and run your Java code online
 
 //program to count frequency of each element in given array
+
 import java.util.*;
 
 public class Q31 {
@@ -9,9 +10,7 @@ public class Q31 {
 public static void main(String[]args){
       
      Scanner sc = new Scanner(System.in);
-
-     //int count=1;
-        
+   
      System.out.print("enter size=");
     
      int dig=sc.nextInt();
