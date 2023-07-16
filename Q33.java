@@ -38,7 +38,7 @@ public class Q33 {
            
             if(isduplicate!=true){
             
-             System.out.println("non repeating elements= "+arr[i]);
+             System.out.println(arr[i]+" ");
             }
 
        }
