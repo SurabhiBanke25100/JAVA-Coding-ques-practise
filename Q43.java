@@ -24,11 +24,9 @@ public class Q43 {
         }
       
      }
-     //System.out.println();
+   
       System.out.println("output:" + s1);
-
-        
-     sc.close();
+      sc.close();
 
     }
 }
