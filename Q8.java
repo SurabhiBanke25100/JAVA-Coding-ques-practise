@@ -1,4 +1,4 @@
-//program to find pelindrome of no
+//program to find no is even or odd of no
 import java.util.*;
 
 public class Q8 {
