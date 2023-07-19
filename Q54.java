@@ -11,7 +11,7 @@ public class Q54 {
 
         Scanner sc=new Scanner(System.in);
         int n;
-       
+       System.out.print("enter no=");
         n=sc.nextInt();
         int sum=0;
         int temp=n;
