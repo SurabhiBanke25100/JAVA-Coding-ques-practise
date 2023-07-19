@@ -29,6 +29,8 @@ public class Q50 {
             }
         }
         System.out.println(str2);
+        
 sc.close();
+
     }
 }
