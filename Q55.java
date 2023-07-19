@@ -22,7 +22,7 @@ public class Q55 {
           int t=temp%10;
           
           if(dig!=t){
-            isAutomorphic=false;
+            isAutomorphic=false ;
             break;
           }
           sq/=10;
