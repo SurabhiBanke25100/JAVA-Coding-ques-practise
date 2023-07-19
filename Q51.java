@@ -27,6 +27,8 @@ public class Q51 {
             System.exit(0);
            }
 
+           //2. sorting the characters of both the string in order to check for anagram
+
          Arrays.sort(ch1);
          Arrays.sort(ch2);
 
