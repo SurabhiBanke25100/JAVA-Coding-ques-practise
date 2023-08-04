@@ -16,7 +16,9 @@ public class Q60 {
             if (Character.isDigit(ch)) {
                 // Append the digit to the temporary number string
                 numStr.append(ch);
-            } else {
+            } 
+            
+            else {
                 // If a non-digit character is encountered, add the temporary number to the sum
                 if (numStr.length() > 0) {
                     sum += Integer.parseInt(numStr.toString());
@@ -31,6 +33,6 @@ public class Q60 {
         }
 
         System.out.println("Sum of numbers in the string: " + sum);
-        
+                   
     }
 }
